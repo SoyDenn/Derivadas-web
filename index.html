@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DERIVADAS</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#aplicaciones">Aplicación</a></li>
+            </ul>
+        </nav>
+        <div></div>
+    </header>
+
+    <section class="seccion1">
+        <div>
+            <h1>APLICACIÓN DE LAS DERIVADAS</h1>
+        </div>
+        <svg id="introduccion" id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 200"
+            version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="white" offset="5%"></stop>
+                    <stop stop-color="#2596be" offset="95%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,160L30,156.7C60,153,120,147,180,140C240,133,300,127,360,126.7C420,127,480,133,540,143.3C600,153,660,167,720,153.3C780,140,840,100,900,70C960,40,1020,20,1080,26.7C1140,33,1200,67,1260,86.7C1320,107,1380,113,1440,106.7C1500,100,1560,80,1620,66.7C1680,53,1740,47,1800,40C1860,33,1920,27,1980,30C2040,33,2100,47,2160,53.3C2220,60,2280,60,2340,60C2400,60,2460,60,2520,70C2580,80,2640,100,2700,120C2760,140,2820,160,2880,153.3C2940,147,3000,113,3060,110C3120,107,3180,133,3240,146.7C3300,160,3360,160,3420,146.7C3480,133,3540,107,3600,96.7C3660,87,3720,93,3780,86.7C3840,80,3900,60,3960,66.7C4020,73,4080,107,4140,130C4200,153,4260,167,4290,173.3L4320,180L4320,200L4290,200C4260,200,4200,200,4140,200C4080,200,4020,200,3960,200C3900,200,3840,200,3780,200C3720,200,3660,200,3600,200C3540,200,3480,200,3420,200C3360,200,3300,200,3240,200C3180,200,3120,200,3060,200C3000,200,2940,200,2880,200C2820,200,2760,200,2700,200C2640,200,2580,200,2520,200C2460,200,2400,200,2340,200C2280,200,2220,200,2160,200C2100,200,2040,200,1980,200C1920,200,1860,200,1800,200C1740,200,1680,200,1620,200C1560,200,1500,200,1440,200C1380,200,1320,200,1260,200C1200,200,1140,200,1080,200C1020,200,960,200,900,200C840,200,780,200,720,200C660,200,600,200,540,200C480,200,420,200,360,200C300,200,240,200,180,200C120,200,60,200,30,200L0,200Z">
+            </path>
+        </svg>
+    </section>
+
+    <section class="seccion2">
+        <div>
+            <h1>INTRODUCCIÓN</h1>
+            <p>Las derivadas forman parte del cálculo, una rama de las matemáticas que es de vital importancia para
+                obtener información acerca de los valores máximos, mínimos y de la taza de cambio de algún fenómeno en
+                un instante especifico.</p>
+
+            <p>En la actualidad, el cálculo diferencial se puede utilizar para optimizar los recursos de algún sector,
+                calcular la velocidad instantánea de un automóvil, administración de compuertas en los circuitos,
+                digitalización de imágenes y sonido. Al igual que en las áreas de economía, física, química,
+                contabilidad, biología, etc.</p>
+
+
+        </div>
+
+
+    </section>
+
+
+    <section class="seccion6">
+        <h1>PRESENTADO POR :</h1>
+        <div class="image-row">
+            <img src="assets/perfilUno.jpeg" alt="Imagen 1">
+            <img src="assets/perfilDos.jpeg" alt="Imagen 2">
+            <img src="assets/perfilTres.jpeg" alt="Imagen 3">
+            <img src="assets/perfilCuatro.jpeg" alt="Imagen 3">
+            <!-- Añade más imágenes aquí si lo deseas -->
+        </div>
+    </section>
+
+    <section class="seccion3">
+
+        <button id="previous-button"><</button>
+
+        <div class="carousel" id="derivadas">
+
+            <img id="first-image" src="assets/carruselUno.jpeg" alt="Imagen 1">
+            <img src="assets/carruselDos.jpeg" alt="Imagen 2">
+            <img src="assets/carruselTres.jpeg" alt="Imagen 3">
+            <!-- Añade más imágenes aquí si lo deseas -->
+        </div>
+
+        <button  id="next-button">></button>
+        <br id="aplicaciones">
+    </section>
+
+    <section class="seccion5">
+        <div>
+            <h1>APLICACIONES</h1>
+            <p>Estudia el cambio y rapidez con que se producen ciertos fenómenos y puede tener diversas aplicaciones
+                en varias áreas de la ciencia, El cálculo también es útil para determinar los valores que deben
+                tomar ciertas variables para lograr resultados óptimos. Ejemplos prácticos de su importancia los
+                encontramos por ejemplo en:</p>
+        </div>
+        <div class="lista">
+
+            <div>
+                <p><strong>1.- Química </strong></p>
+                <p>La velocidad en la que una bacteria crece y se propaga.</p>
+            </div>
+            <div>
+                <img src="assets/quimica.webp" alt="">
+            </div>
+            <div>
+                <img src="assets/Economía.jpg" alt="">
+            </div>
+            <div>
+                <p><strong>2.- Economía </strong></p>
+                <p>Encontrar el costo marginal, maximizar beneficios y rendimientos. Física: Determinar la velocidad
+                    instantánea de un motocicspansta en un punto dado.</p>
+            </div>
+
+            <div>
+                <p><strong>3.- Física </strong></p>
+                <p>Determinar la altura máxima de un balón en el segundo 20.</p>
+            </div>
+            <div>
+                <img src="assets/ejemplo.jpg" alt="">
+            </div>
+
+            <div>
+                <img src="assets/Tecnología.webp" alt="">
+            </div>
+            <div>
+                <p><strong>4.- Tecnología moderna </strong></p>
+                <p>En el procesamiento de ondas y señales de comunicación.</p>
+            </div>
+           
+            <div>
+                <p><strong>5.- Biología </strong></p>
+                <p>Crecimiento de las plantas. </strong></p>
+            </div>
+            <div>
+                <img src="assets/Biología.jpg" alt="">
+            </div>
+            <div>
+                <img src="assets/Protección.webp" alt="">
+            </div>
+            <div>
+                <p><strong>6.- Protección civil </strong></p>
+                <p>Minimización de riesgos, o más puntualmente, lograr calcular el área afectada por incendio y el
+                    tiempo en el que podría propagarse hacia alguna reserva o poblado cercano.</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="seccion4" >
+        <div>
+            <h1>EJEMPLO EN LA ECONOMIA</h1>
+            <p>El costo marginal se define como la variación en el costo total, ante el aumento de una unidad en la cantidad producida, es decir, es el costo de producir una unidad adicional.</p>
+            <div>
+                <img src="assets/ejemploEconomia.jpg" alt="">
+                <img src="assets/ejemploEconomia2.jpg" alt="">
+            </div>
+
+        </div>
+    </section> 
+
+
+
+
+    <footer>
+        <h4>DERECHOS RESERVADOS</h4>
+    </footer>
+
+    <script>
+        const carousel = document.querySelector('.carousel');
+        const images = carousel.querySelectorAll('img');
+        const previousButton = document.querySelector('#previous-button');
+        const nextButton = document.querySelector('#next-button');
+        images[0].classList.add('active');
+        let currentImageIndex = 0;
+
+        function showNextImage() {
+            images[currentImageIndex].classList.remove('active');
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            images[currentImageIndex].classList.add('active');
+        }
+
+        function showPreviousImage() {
+            images[currentImageIndex].classList.remove('active');
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+            images[currentImageIndex].classList.add('active');
+        }
+
+        nextButton.addEventListener('click', showNextImage);
+        previousButton.addEventListener('click', showPreviousImage);
+    </script>
+</body>
+
+</html>
